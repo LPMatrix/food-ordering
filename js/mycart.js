@@ -195,9 +195,9 @@
           '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
           '<td class="text-center"><img style="width:60px" src="' + this.image + '"/></td>' +
           '<td>' + this.name + '</td>' +
-          '<td title="Unit Price">$' + this.price + '</td>' +
+          '<td title="Unit Price">N' + this.price + '</td>' +
           '<td title="Quantity"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
-          '<td title="Total" class="' + classProductTotal + '">$' + total + '</td>' +
+          '<td title="Total" class="' + classProductTotal + '">N' + total + '</td>' +
           '<td title="Remove from Cart" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
           '</tr>'
         );
