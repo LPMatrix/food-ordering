@@ -11,6 +11,12 @@
         <script src="./js/jquery.min.js"></script>
         <link rel="icon" href="./img/icon.png" />
         <title>Tantalizers</title>
+
+        <style type="text/css">
+            .nav-link{
+                color: red !important;
+            }
+        </style>
     </head>
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> <a class="navbar-brand" href="./index.html"><img src="./img/logo.png"></a>
         <button
@@ -25,7 +31,14 @@
                     </li>
                     <li class="nav-item"> <a class="nav-link" href="">Career</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link" href="">Order Online</a>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Order Online</a>   
+                        <div class="dropdown-menu">
+                            <ul> 
+                                <li><a class="dropdown-item nav-link nav_item" href="#">Restaurant</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="#">Tantis Pot</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item"> <a class="nav-link" href="">Franchise</a>
                     </li>
